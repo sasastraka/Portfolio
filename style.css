@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 125%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 30px;
+    }
+}
+/* ... (předchozí kód) */
+
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    flex: 0 0 30%; /* Šířka obrázkového kontejneru */
+    margin-right: 20px; /* Vzdálenost mezi obrázkem a textovým kontejnerem */
+}
+
+.text-container {
+    flex: 1; /* Textový kontejner zaujme veškerý zbývající prostor */
+}
+
+.image-container img {
+    max-width: 100%; /* Obrázek se přizpůsobí velikosti svého kontejneru */
+    height: auto;
+}
+
+/* ... (další kód) */
+#o-me {
+    background: linear-gradient(
+        to bottom,
+        rgb(34, 34, 34),
+        gray,
+        white
+    );
+    font-size: 150%;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif
+ 
+
+
+
+    
+}
+#projekty {
+    text-align: center;
+    margin: 15px;
+    padding: 1%;
+    background: radial-gradient(
+        rgb(137, 0, 80),
+        purple
+    );
+}
+#kontakt {
+    text-align: center;
+    background: linear-gradient(
+        blue,
+        pink
+    )
+
+
+    
+}
+#domu {
+    font-size: 125%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: burlywood;
+}
+#header {
+    background-color: blue;
+}
