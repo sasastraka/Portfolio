@@ -40,7 +40,6 @@ section {
         padding: 30px;
     }
 }
-/* ... (předchozí kód) */
 
 .about-me-container {
     display: flex;
@@ -48,16 +47,16 @@ section {
 }
 
 .image-container {
-    flex: 0 0 30%; /* Šířka obrázkového kontejneru */
-    margin-right: 20px; /* Vzdálenost mezi obrázkem a textovým kontejnerem */
+    flex: 0 0 30%; 
+    margin-right: 20px; 
 }
 
 .text-container {
-    flex: 1; /* Textový kontejner zaujme veškerý zbývající prostor */
+    flex: 1; 
 }
 
 .image-container img {
-    max-width: 100%; /* Obrázek se přizpůsobí velikosti svého kontejneru */
+    max-width: 100%; 
     height: auto;
 }
 
